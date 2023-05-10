@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form>
+
+        <input type="email" placeholder="E-mail" /> <br/> <br/>
+        <input type="text" placeholder="Seu nome"/> <br/> <br/>
+        <input type="text" placeholder="Senha"/> <br/> <br/>
+        <input type="checkbox" id="checkbox-aceite"/> <label for="checkbox-aceite">Aceito os temos de uso</label> <br/>
+        <button>Enviar</button>
+        
+    </form>
+</body>
+</html>
